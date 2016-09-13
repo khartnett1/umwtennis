@@ -1,0 +1,110 @@
+html { 
+  background: url(http://i.imgur.com/Y2cIUav.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+/* https://css-tricks.com/perfect-full-page-background-image/ */
+
+.menu ul li {
+    display:inline;
+    padding: 20px;
+    background-color: #66ff00;
+    opacity:  0.75;
+    border-radius: 6px;
+}
+
+#acctable table, th, td {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#acctable th, td {
+	text-align: center;
+}
+
+
+li a {
+  
+  text-decoration: none;
+}
+
+li a:hover, a:visited:hover {
+    background-color: #555;
+    color: red;
+}
+
+li a:visited {
+    
+    color:blue;
+    
+}
+
+label{
+    display:inline-block;
+    width:100px;
+
+}
+
+input {
+    
+margin: 10px;
+border-radius: 5px;
+padding: 5px;
+
+}
+
+/*input focus code from http://jsfiddle.net/simevidas/CXUpm/1/ */
+
+input:focus { 
+
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+    
+}
+
+.content {
+
+  max-width: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 2px gray;
+  /*opacity: 0.6;*/
+  border-radius: 15px;
+  z-index: 10;
+
+}
+
+.menu {
+    position: fixed;
+    margin-top: -2em;
+    z-index: 11;
+    background-color: #666666;
+    width: 100%;
+    height: 8%;
+    margin-left: -0.5em;
+    min-height: 75px;
+}
+
+#solid {
+	opacity: 1.0;
+};
+
+#calendar {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: green;
+	opacity: 1;
+};
+
+header {
+   
+}
+
